@@ -25,5 +25,5 @@ try:
 finally:
     print("File size: {}".format(FileSize))
     for key, value in sorted(STATUS.items()):
-            if value != 0:
-                print("{}: {:d}".format(key, value))
+        if value != 0:
+            print("{}: {:d}".format(key, value))
