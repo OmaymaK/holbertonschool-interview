@@ -1,4 +1,4 @@
-# 0x18-merge_sort 
+## 0x18-merge_sort 
 
 *a function that sorts an array of integers in ascending order using the Merge Sort algorithm:*
 
