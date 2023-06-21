@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * advanced_binary - a function that searches for a value in a sorted array of integers.
+ * advanced_binary - a function that searches for a value in an array
  * @array: the array
  * @size: the number of elements in the array
  * @value: the value to search for
@@ -17,6 +17,7 @@ int advanced_binary(int *array, size_t size, int value)
 		return (-1);
 
 	printf("Searching in array: ");
+    
 	for (i = 0; i < size; i++)
 	{
 		if (i == size - 1)
