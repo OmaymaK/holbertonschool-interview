@@ -30,7 +30,7 @@ List *add_node_end(List **list, char *str)
 		return (new);
 	}
 	p = (*list)->prev;
-	p ->next = new;
+	p->next = new;
 	new->next = (*list);
 	new->prev = p;
 	(*list)->prev = new;
